@@ -1,0 +1,15 @@
+LIBRARY relay_leaf
+EXPORTS
+    relay_leaf_create
+    relay_leaf_destroy
+    relay_leaf_set_discovery_url
+    relay_leaf_set_partner_id
+    relay_leaf_add_proxy
+    relay_leaf_start
+    relay_leaf_stop
+    relay_leaf_get_device_id
+    relay_leaf_get_stats
+    relay_leaf_free_stats
+    relay_leaf_free_string
+    relay_leaf_version
+    relay_leaf_error_message

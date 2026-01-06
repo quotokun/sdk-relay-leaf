@@ -1,0 +1,13 @@
+[package]
+name = "relay-leaf-example"
+version = "1.0.0"
+edition = "2021"
+
+[[bin]]
+name = "example"
+path = "main.rs"
+
+[dependencies]
+ctrlc = "3.4"
+
+[build-dependencies]

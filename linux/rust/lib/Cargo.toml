@@ -1,0 +1,12 @@
+[package]
+name = "relay-leaf"
+version = "1.0.0"
+edition = "2021"
+description = "Relay Leaf SDK for Rust - P2P Relay Network Client"
+license = "MIT"
+
+[lib]
+name = "relay_leaf_sdk"
+path = "src/lib.rs"
+
+[dependencies]

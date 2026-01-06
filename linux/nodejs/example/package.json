@@ -1,0 +1,14 @@
+{
+  "name": "relay-leaf-example",
+  "version": "1.0.0",
+  "description": "Relay Leaf SDK Example for Windows",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "ffi-napi": "^4.0.3",
+    "ref-napi": "^3.0.3",
+    "ref-struct-napi": "^1.1.1"
+  }
+}
