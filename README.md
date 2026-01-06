@@ -11,6 +11,24 @@ Relay Leaf SDK provides native bindings for connecting to the P2P relay network.
 - Auto-reconnection with exponential backoff
 - Real-time statistics and monitoring
 
+## Native Library Releases (Always Latest)
+
+The most up-to-date native libraries are published on GitHub Releases (source of truth):
+https://github.com/lebachhiep/relay-leaf-library/releases
+
+All SDKs include a **LibraryDownloader** that can automatically download and verify the correct native library for your platform/arch.
+
+### Download Sources (used by LibraryDownloader)
+
+SDKs can download native libraries from these sources:
+
+1. GitHub Releases (Latest):  
+   https://github.com/lebachhiep/relay-leaf-library/releases/latest
+
+2. https://release.prx.network (Mirror/Primary CDN, if available)
+
+Libraries are verified using SHA256 checksums from `checksums.json`.
+
 ## Supported Platforms
 
 | Platform | Architecture | Native Library | Status |
