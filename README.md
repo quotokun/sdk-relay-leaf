@@ -25,7 +25,7 @@ SDKs can download native libraries from these sources:
 1. GitHub Releases (Latest):  
    https://github.com/lebachhiep/relay-leaf-library/releases/latest
 
-2. https://release.prx.network (Mirror/Primary CDN, if available)
+2. [https://release.prx.network](https://release.prx.network/checksums.json) (Mirror/Primary CDN, if available)
 
 Libraries are verified using SHA256 checksums from `checksums.json`.
 
